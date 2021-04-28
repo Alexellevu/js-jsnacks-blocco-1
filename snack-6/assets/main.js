@@ -8,4 +8,6 @@ console.log(numUtente);
 for (var i = 1; i <= numUtente; i++){
      var potenza =Math.pow(i, 3);
      console.log(potenza);
+     
 }
+

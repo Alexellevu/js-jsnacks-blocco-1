@@ -9,5 +9,5 @@ console.log(palla);
 
 //Attraverso un prompt dare la possibilità all’utente di modificare il peso della palla.
 
-palla.peso = 20;
+palla.peso = prompt('inserisci il peso');
 console.log(palla);

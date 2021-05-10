@@ -5,7 +5,6 @@ var numUtente = (prompt('inserisci un numero di 4 cifre'));
 console.log(numUtente);
 var array = [];
 
-
 array.push(parseInt(numUtente));
 console.log(array);
 

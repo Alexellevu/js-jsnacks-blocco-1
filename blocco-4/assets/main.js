@@ -24,6 +24,13 @@ var triangolo = {
     cateto1 :15,
     cateto2 :12
 }
+function ipotenusa(c1, c2){
+    
+    var ip = Math.sqrt(c1^2 + c2^2);
+    return ip;
+}
+var ipotenusaT = ipotenusa(triangolo.cateto1, triangolo.cateto2);
+console.log(ipotenusaT);
 
 function area( b , a){
     var areaT = (b*a)/2;

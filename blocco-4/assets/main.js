@@ -20,13 +20,23 @@ console.log(palla); */
 
 var triangolo = { 
     base: 10,
-    altezza:20
+    altezza:20,
+    cateto1 :15,
+    cateto2 :12
 }
 
 function area( b , a){
-    areaT = (b*a)/2;
+    var areaT = (b*a)/2;
     return areaT;
 }
 
 var areaTriangolo = area(triangolo.base ,triangolo.altezza);
 console.log(areaTriangolo);
+
+function perimetro(c1, c2 , b){
+    var somma = c1 + c2 + b;
+    return somma;
+}
+
+var perimetroRettangolo = perimetro(triangolo.cateto1, triangolo.cateto2, triangolo.base);
+console.log(perimetroRettangolo);
